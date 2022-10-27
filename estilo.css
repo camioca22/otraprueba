@@ -5,6 +5,7 @@ body{
    height: 600px;
    flex-direction: column;
    padding: 1em;
+   display: flex;
 }
 #main{
    display: flex;
@@ -39,7 +40,7 @@ body{
     vertical-align: middle;
     width: 70px;
   }
-  h1, footer{
+  h1{
     background-color: #7a54288a;
     text-align: center;
     font-size: xxx-large;
@@ -53,20 +54,22 @@ body{
     font-family: 'Cookie', cursiva;
     color:rgb(54, 20, 0);
  }
- #padre {
+ #carouselExampleControls{
    justify-items: center; /* start | end | center | stretch */
-   align-items: center; /* start | end | center | stretch */
-   display: grid;
-   width: 95%;
-   grid-template-columns: auto auto;
-   grid-column-gap: 10px;
-   grid-template-rows: 100px 100px;
-   grid-row-gap: 10px;
+    align-items: center; /* start | end | center | stretch */
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: auto;
+    box-sizing: border-box;
  }
- #padre div {
-   border: solid 1px;
-   font-size: 21px;
-   padding: 5px;
-   background-color: yellow;
- }
-  
+footer{
+   background-color: #7a54288a;
+    text-align: center;
+    font-size: xxx-large;
+    font-family: 'Cookie', cursiva;
+    color:rgb(54, 20, 0);
+    display: flex;
+    width: 100%;
+}
