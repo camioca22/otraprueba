@@ -1,0 +1,79 @@
+body{
+    background-image: url(img/fondo.jpg);
+    background-size:auto;
+    display: flex;
+   height: 600px;
+   flex-direction: column;
+   padding: 1em;
+   display: flex;
+}
+
+#navegador ul{
+    list-style-type: none;
+    text-align: center;
+ }
+ #navegador li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+ }
+ #navegador li a {
+    padding: 2px 7px 2px 7px;
+    color: #666;
+    background-color: #dfb176c5;
+    border: 1px solid #dfb176c5;
+    text-decoration: none;
+ }
+ #navegador li a:hover{
+    background-color: #7a5428;
+    color: #eeca9cc5;
+ }
+ .nav-logo img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .nav-logo{
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+  }
+  #padre {
+    justify-items: center; /* start | end | center | stretch */
+    align-items: center; /* start | end | center | stretch */
+    display:flex;
+    width: 95%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: auto;
+    box-sizing: border-box;
+    
+  }
+  #padre img {
+    padding: 5px;
+    max-width: 400px;
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+ h1,h2,h3,h4{
+    width: 300px;
+    text-align: center;
+    font-size: small;
+    font-family: 'Cookie', cursiva;
+    color:rgb(54, 20, 0);
+    display: flex;
+ }
+  
+  
+  footer{
+    background-color: #7a54288a;
+    text-align: center;
+    font-size: xxx-large;
+    font-family: 'Cookie', cursiva;
+    color:rgb(54, 20, 0);
+    display: flex;
+    width: 100%;
+  }
+  
